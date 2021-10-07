@@ -26,5 +26,7 @@ Features Like To Add
 * 1 Creating a mail list subscription option
 * 2 Creating a loyalty program option to sign up for
 * 3 Creating a feedback button
+* 4 In general I want to tweak the page to give a more modern look. Bring it out
+of the 90s!
 
 

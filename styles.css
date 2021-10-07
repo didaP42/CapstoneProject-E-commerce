@@ -7,6 +7,8 @@ nav{
  display: flex;  
   background-color: rgb(48, 3, 80);
   justify-content: space-between;
+  
+
 }
 
 .nav-right{
@@ -18,6 +20,50 @@ nav{
 .nav-left{    
    margin-left: 25px;
    color: ghostwhite;
+}
+@media(max-width:1025px){
+  nav{
+    display: flex;  
+     justify-content: space-evenly;
+       }
+   
+   .nav-right{
+       padding-top: 25px;
+       display: flex;  
+       /* height: fit-content; */
+   
+   }
+   .nav-left{    
+      padding-top: 25px;
+      color: ghostwhite;
+   }
+}
+@media(max-width:375px){
+  nav{
+    display: flex;  
+    flex-direction: column;
+     justify-content: space-evenly;
+     background-color: bisque;
+   }
+    #logo{
+    height: 100px;
+    padding-top: 15px;
+    }
+   .nav-right{
+       padding-top: 15px;
+       padding-left: 15px;
+       display: flex;  
+       /* height: fit-content; */
+   
+   }
+   .nav-left{    
+      padding-top: 15px;
+      color: ghostwhite;
+   }
+   .text{
+     font-size: 120px;
+     color: chartreuse;
+   }
 }
 .menu{
     color: ghostwhite;
@@ -102,7 +148,7 @@ main{
 /* Caption text */
 .text {
   color:brown;
-  font-size: 75px;
+  font-size: 30px;
   padding: 8px 12px;
   position: absolute;
   bottom: 8px;
@@ -158,3 +204,4 @@ main{
 #foote{
     color:lightgreen
 }
+
